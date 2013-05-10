@@ -1,0 +1,5 @@
+C:\MyProjects\LINQBOOK\9781430226536\Pro LINQ - All Source Code\LINQChapter1\LINQChapter1\bin\Debug\LINQChapter1.exe
+C:\MyProjects\LINQBOOK\9781430226536\Pro LINQ - All Source Code\LINQChapter1\LINQChapter1\bin\Debug\LINQChapter1.pdb
+C:\MyProjects\LINQBOOK\9781430226536\Pro LINQ - All Source Code\LINQChapter1\LINQChapter1\obj\Debug\LINQChapter1.csprojResolveAssemblyReference.cache
+C:\MyProjects\LINQBOOK\9781430226536\Pro LINQ - All Source Code\LINQChapter1\LINQChapter1\obj\Debug\LINQChapter1.exe
+C:\MyProjects\LINQBOOK\9781430226536\Pro LINQ - All Source Code\LINQChapter1\LINQChapter1\obj\Debug\LINQChapter1.pdb

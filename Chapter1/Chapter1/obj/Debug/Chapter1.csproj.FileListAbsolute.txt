@@ -1,6 +1,0 @@
-C:\MyProjects\LINQBOOK\Chapter1\Chapter1\bin\Debug\Chapter1.exe.config
-C:\MyProjects\LINQBOOK\Chapter1\Chapter1\bin\Debug\Chapter1.exe
-C:\MyProjects\LINQBOOK\Chapter1\Chapter1\bin\Debug\Chapter1.pdb
-C:\MyProjects\LINQBOOK\Chapter1\Chapter1\obj\Debug\Chapter1.csprojResolveAssemblyReference.cache
-C:\MyProjects\LINQBOOK\Chapter1\Chapter1\obj\Debug\Chapter1.exe
-C:\MyProjects\LINQBOOK\Chapter1\Chapter1\obj\Debug\Chapter1.pdb

@@ -12,20 +12,15 @@ namespace Chapter2
     {
         static void Main(string[] args)
         {
-            Util.PrintWrappers(typeof(CallingFilterUsingLambdaExpression));
-            CallingFilterUsingLambdaExpression.Print();
+            Util.InvokeListing<CallingFilterUsingLambdaExpression>();
 
-            Util.PrintWrappers(typeof(InstantiatingAndIntializingAnonymousType));
-            InstantiatingAndIntializingAnonymousType.Print();
+            Util.InvokeListing<InstantiatingAndIntializingAnonymousType>();
 
-            Util.PrintWrappers(typeof(CallingAnExtensionMethod));
-            CallingAnExtensionMethod.Print();
+            Util.InvokeListing<CallingAnExtensionMethod>();
 
-            Util.PrintWrappers(typeof(InstantiatingPartialClass));
-            InstantiatingPartialClass.Print();
+            Util.InvokeListing<InstantiatingPartialClass>();
 
-            Util.PrintWrappers(typeof(DotNotationVsQueryExpression));
-            DotNotationVsQueryExpression.print();
+            Util.InvokeListing<DotNotationVsQueryExpression>();
 
             Console.ReadKey(true);
         }

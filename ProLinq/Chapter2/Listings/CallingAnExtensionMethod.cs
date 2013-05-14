@@ -1,11 +1,12 @@
 ﻿using System;
 using Chapter2.ExtentionMethods;
+using Common;
 
 namespace Chapter2.Listings
 {
-    public class CallingAnExtensionMethod
+    public class CallingAnExtensionMethod : IListing
     {
-        public static void Print()
+        public void Print()
         {
             double pi = "3.14159265350".ToDouble();
             Console.WriteLine(pi);

@@ -12,29 +12,21 @@ namespace Chapter1
     {
         static void Main(string[] args)
         {
-            Util.PrintWrappers(typeof(HelloLinq));
-            HelloLinq.Print();
+            Util.InvokeListing<HelloLinq>();
 
-            Util.PrintWrappers(typeof(XMLQueryUsingLinqToXml));
-            XMLQueryUsingLinqToXml.Print();
+            Util.InvokeListing<XmlQueryUsingLinqToXml>();
 
-            Util.PrintWrappers(typeof(SimpleDbQueryUsingLinqToSql));
-            SimpleDbQueryUsingLinqToSql.Print();
+            Util.InvokeListing<SimpleDbQueryUsingLinqToSql>();
 
-            Util.PrintWrappers(typeof(ConvertingAnArrayofStringsToIntegers));
-            ConvertingAnArrayofStringsToIntegers.Print();
+            Util.InvokeListing<ConvertingAnArrayofStringsToIntegers>();
 
-            Util.PrintWrappers(typeof(ConvertArrayListEmployeeToArrayContacts));
-            ConvertArrayListEmployeeToArrayContacts.Print();
+            Util.InvokeListing<ConvertArrayListEmployeeToArrayContacts>();
 
-            Util.PrintWrappers(typeof(ConvertingLegacyCollectionToIEnumerable));
-            ConvertingLegacyCollectionToIEnumerable.Print();
+            Util.InvokeListing<ConvertingLegacyCollectionToIEnumerable>();
 
-            Util.PrintWrappers(typeof(QueryWithIntentionalExceptionDeferred));
-            QueryWithIntentionalExceptionDeferred.Print();
+            Util.InvokeListing<QueryWithIntentionalExceptionDeferred>();
 
-            Util.PrintWrappers(typeof(UsingDataContextLogObject));
-            UsingDataContextLogObject.Print();
+            Util.InvokeListing<UsingDataContextLogObject>();
 
             Console.ReadKey(true);
         }

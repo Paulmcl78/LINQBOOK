@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Chapter2.Common;
+using Common;
 
 namespace Chapter2.Listings
 {
-    public class CallingFilterUsingLambdaExpression
+    public class CallingFilterUsingLambdaExpression : IListing
     {
-        public static void Print()
+        public void Print()
         {
             int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 

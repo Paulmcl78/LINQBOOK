@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common;
 using nwind;
 
 namespace Chapter1.Listings
 {
-    public static class UsingDataContextLogObject
+    public class UsingDataContextLogObject : IListing
     {
-        public static void Print()
+        public void Print()
         {
             Northwind db = Northwind.GetDataBase();
             db.Log = Console.Out;

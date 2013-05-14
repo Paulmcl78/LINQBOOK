@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Linq;
+using Common;
 using nwind;
 
 namespace Chapter1.Listings
 {
-    public static class SimpleDbQueryUsingLinqToSql
+    public class SimpleDbQueryUsingLinqToSql : IListing
     {
-        public static void Print()
+        public void Print()
         {
             Northwind db = Northwind.GetDataBase();
 

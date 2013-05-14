@@ -5,12 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Chapter1.Common;
+using Common;
 
 namespace Chapter1.Listings
 {
-    public static class ConvertArrayListEmployeeToArrayContacts
+    public class ConvertArrayListEmployeeToArrayContacts : IListing
     {
-        public static void Print()
+        public void Print()
         {
             ArrayList alEmployees = Employee.GetEmployees();
 

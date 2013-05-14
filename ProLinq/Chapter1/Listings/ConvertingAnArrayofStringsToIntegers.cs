@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common;
 
 namespace Chapter1.Listings
 {
-   public static class ConvertingAnArrayofStringsToIntegers 
+    public class ConvertingAnArrayofStringsToIntegers : IListing
     {
-        public static void Print()
+        public void Print()
         {
             string[] numbers = {"0042","010","9","27"};
 

@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
+using Common;
 
 namespace Chapter1.Listings
 {
-    public static class XMLQueryUsingLinqToXml
+    public class XmlQueryUsingLinqToXml : IListing
     {
-        public static void Print()
+        public void Print()
         {
             XElement books = GetBooks();
 

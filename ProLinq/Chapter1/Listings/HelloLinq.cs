@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Common;
 
 namespace Chapter1.Listings
 {
-    public static class HelloLinq 
+    public class HelloLinq : IListing
     {
-        public static void Print()
+        public void Print()
         {
 
             string[] greetings = {"Hello world", "Hello LINQ", "Hello Apress"};

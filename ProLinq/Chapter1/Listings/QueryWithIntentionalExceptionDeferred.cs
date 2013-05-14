@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common;
 
 namespace Chapter1.Listings
 {
-    public static class QueryWithIntentionalExceptionDeferred
+    public class QueryWithIntentionalExceptionDeferred : IListing
     {
-        public static void Print()
+        public void Print()
         {
             try
             {

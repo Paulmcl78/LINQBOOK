@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common;
 
 namespace Chapter2.Listings
 {
-    public class DotNotationVsQueryExpression
+    public class DotNotationVsQueryExpression : IListing
     {
 
-        public static void print()
+        public void Print()
         {
             DotNotation();
             QueryExpression();

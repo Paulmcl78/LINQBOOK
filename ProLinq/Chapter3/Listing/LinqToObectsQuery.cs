@@ -11,7 +11,7 @@ namespace Chapter3.Listing
     {
         public void Print()
         {
-            string[] presidents = Util.getNames();
+            string[] presidents = Util.GetNames();
 
             string president = presidents.Where(p => p.StartsWith("Lin")).First();
 

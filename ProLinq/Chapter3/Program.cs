@@ -14,6 +14,9 @@ namespace Chapter3
         {
             Util.InvokeListing<LinqToObectsQuery>();
 
+            Util.InvokeListing<QueryResultsChangingBetweenEnumerations>();
+
+            Util.InvokeListing<QueryResultsExecutedImmediately>();
 
             Console.ReadKey(true);
         }

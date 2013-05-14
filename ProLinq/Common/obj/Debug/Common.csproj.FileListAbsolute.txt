@@ -2,3 +2,4 @@ C:\MyProjects\LINQBOOK\ProLinq\Common\bin\Debug\Common.dll
 C:\MyProjects\LINQBOOK\ProLinq\Common\bin\Debug\Common.pdb
 C:\MyProjects\LINQBOOK\ProLinq\Common\obj\Debug\Common.dll
 C:\MyProjects\LINQBOOK\ProLinq\Common\obj\Debug\Common.pdb
+C:\MyProjects\LINQBOOK\ProLinq\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Listing\LinqToObectsQuery.cs" />
+    <Compile Include="Listing\QueryResultsChangingBetweenEnumerations.cs" />
+    <Compile Include="Listing\QueryResultsExecutedImmediately.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

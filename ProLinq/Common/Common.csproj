@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Util.cs" />
     <Compile Include="IListing.cs" />
     <Compile Include="Northwind.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -15,6 +15,18 @@ namespace Chapter2
             Util.PrintWrappers(typeof(CallingFilterUsingLambdaExpression));
             CallingFilterUsingLambdaExpression.Print();
 
+            Util.PrintWrappers(typeof(InstantiatingAndIntializingAnonymousType));
+            InstantiatingAndIntializingAnonymousType.Print();
+
+            Util.PrintWrappers(typeof(CallingAnExtensionMethod));
+            CallingAnExtensionMethod.Print();
+
+            Util.PrintWrappers(typeof(InstantiatingPartialClass));
+            InstantiatingPartialClass.Print();
+
+            Util.PrintWrappers(typeof(DotNotationVsQueryExpression));
+            DotNotationVsQueryExpression.print();
+
             Console.ReadKey(true);
         }
     }

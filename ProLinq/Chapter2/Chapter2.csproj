@@ -42,7 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\FilterArrays.cs" />
+    <Compile Include="ExtentionMethods\StringConversion.cs" />
+    <Compile Include="Listings\CallingAnExtensionMethod.cs" />
     <Compile Include="Listings\CallingFilterUsingLambdaExpression.cs" />
+    <Compile Include="Listings\DotNotationVsQueryExpression.cs" />
+    <Compile Include="Listings\InstantiatingAndIntializingAnonymousType.cs" />
+    <Compile Include="Listings\InstantiatingPartialClass.cs" />
+    <Compile Include="Partial Methods\MyWidget.cs" />
+    <Compile Include="Partial Methods\MyWidget2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Common
 {
@@ -33,7 +29,7 @@ namespace Common
 
         }
 
-        public static string[] getNames()
+        public static string[] GetNames()
         {
             return  new[]  { "Adams", "Arthur", "Buchanan", "Bush", "Carter", "Cleveland", 
         "Clinton", "Coolidge", "Eisenhower", "Fillmore", "Ford",  "Garfield",

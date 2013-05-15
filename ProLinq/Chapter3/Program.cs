@@ -18,6 +18,8 @@ namespace Chapter3
 
             Util.InvokeListing<QueryResultsExecutedImmediately>();
 
+            Util.InvokeListing<FuncDelegate>();
+
             Console.ReadKey(true);
         }
     }

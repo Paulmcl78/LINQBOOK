@@ -1,0 +1,8 @@
+C:\MyProjects\LINQBOOK\ProLinq\Chapter4\bin\Debug\Chapter4.exe.config
+C:\MyProjects\LINQBOOK\ProLinq\Chapter4\bin\Debug\Chapter4.exe
+C:\MyProjects\LINQBOOK\ProLinq\Chapter4\bin\Debug\Chapter4.pdb
+C:\MyProjects\LINQBOOK\ProLinq\Chapter4\bin\Debug\Common.dll
+C:\MyProjects\LINQBOOK\ProLinq\Chapter4\bin\Debug\Common.pdb
+C:\MyProjects\LINQBOOK\ProLinq\Chapter4\obj\Debug\Chapter4.csprojResolveAssemblyReference.cache
+C:\MyProjects\LINQBOOK\ProLinq\Chapter4\obj\Debug\Chapter4.exe
+C:\MyProjects\LINQBOOK\ProLinq\Chapter4\obj\Debug\Chapter4.pdb

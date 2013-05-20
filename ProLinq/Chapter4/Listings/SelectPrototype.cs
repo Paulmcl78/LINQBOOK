@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Chapter4.Common;
 using Common;
 
 namespace Chapter4.Listings
@@ -18,6 +19,8 @@ namespace Chapter4.Listings
             string[] presidents = Util.GetNames();
             FirstSelectPrototype(presidents);
             SecondSelectPrototype(presidents);
+            FirstSelectManyPrototype(presidents);
+            SecondSelectManyPrototype(presidents);
         }
 
 
@@ -61,6 +64,47 @@ namespace Chapter4.Listings
             }
         }
 
+        /// <summary>
+        /// 
+        /// public static IEnumerable<S> SelectMany<T,S>(this IEnumerable<T> source,Func<T,IEnumerable<S>> selector)
+        /// 
+        /// This prototype of the operator is passed an input source sequence of elements of type T and a selector method delegate, and it returns an object that, 
+        /// when enumerated, enumerates the input source sequence, passing each element individually from the input sequence to the selector method. The selector
+        /// method then returns an object, that when enumerated, yields zero or more elements of type S in an intermediate output sequecne.
+        /// 
+        /// In the example below the selector method receives a string as input, and by calling to ToArray on that string, it returns an array of chars, which
+        /// becomes an output sequence of type char.
+        /// </summary>
+        private void FirstSelectManyPrototype(string[] presidents)
+        {
+            IEnumerable<char> chars = presidents.SelectMany(p => p.ToArray());
+
+            foreach (char c in chars)
+            {
+               Console.WriteLine(c); 
+            }
+
+        }
+
+        /// <summary>
+        /// 
+        /// public static IEnumerable<S> SelectMany<T,S>(this IEnumerable<T> source, Func<T,int,IEnumerable<S>> selector ) 
+        /// 
+        /// This prototype behaves just like the first prototype, except a zero-based index of the elements in the input sequence is passed to your selector
+        /// method.
+        /// 
+        /// In the example below, the lambda expression we provided checks the incoming index and outputs the array of characters from the input string only
+        /// if the index is less than five. This means we will get the characters for the first 5 input strings only.
+        /// </summary>
+        private void SecondSelectManyPrototype(string[] presidents)
+        {
+            IEnumerable<char> chars = presidents.SelectMany((p, i) => i < 5 ? p.ToArray() : new char[] {});
+
+            foreach (char c in chars)
+            {
+                Console.WriteLine(c);
+            }
+        }
         
     }
 }

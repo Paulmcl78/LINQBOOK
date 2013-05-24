@@ -45,6 +45,7 @@
     <Compile Include="Common\Employee.cs" />
     <Compile Include="Common\EmployeeOptionEntry.cs" />
     <Compile Include="Listings\SelectPrototype.cs" />
+    <Compile Include="Listings\TakePrototype.cs" />
     <Compile Include="Listings\WherePrototype.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
